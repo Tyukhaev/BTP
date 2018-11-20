@@ -6,7 +6,7 @@
 которую необходимо добавить в БД;
 * +Save (Procedure: [Bootcamp](https://github.com/Tyukhaev/BTP/blob/master/docs/Bootcamp.md "объект класса Bootcamp")): Bool — функция, редактирующая данные о буткемпе. Параметр «[Bootcamp](https://github.com/Tyukhaev/BTP/blob/master/docs/Bootcamp.md "объект класса Bootcamp")» — 
 буткемп, которую необходимо редактировать в БД;
-* +FindByID(ID: Int): Bootcamp  — функция, осуществляющая поиск буткемпы в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [Bootcamp](https://github.com/Tyukhaev/BTP/blob/master/docs/Bootcamp.md "объект класса Bootcamp")  — функция, осуществляющая поиск буткемпы в базе данных по ID и возвращающая найденный, если такой есть. 
 * +AddPersonal(IDBootcmap : int, IDPersonal : int) - функция добавляет работников на буткемп в БД. Параметр IDBootcmap и IDPersonal – ID по которому будет осуществлен поиск в базе.
 * +AddSponsor(IDBootcamp : int, IDSponsor : int) - функция добавляет спонсора на буткемп в БД. Параметр IDBootcmap и IDSponsor – ID по которому будет осуществлен поиск в базе.
 * +AddTeam(IDBootcamp : int, IDTeam : int) - функция добавляет команду на буткемп в БД. Параметр IDBootcmap и IDTeam – ID по которому будет осуществлен поиск в базе.
