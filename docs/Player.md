@@ -9,7 +9,7 @@
 
 ## Описание атрибутов
 
-ID:Int - идентификатор в БД.
-Name:String - имя игрока
-Nickname:String - псевдоним игрока
-Commend:String - комментарий к игроку
+* ID:Int - идентификатор в БД.
+* Name:String - имя игрока
+* Nickname:String - псевдоним игрока
+* Commend:String - комментарий к игроку
