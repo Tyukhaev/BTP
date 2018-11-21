@@ -14,8 +14,8 @@
 * +DeleteGame(IDTeam : int, IDGame : int) - удаление игры у команды.
 * +DeleteSponsor(IDTeam : int, IDSponsor : int) - удаление спонсора у команды.
 * +DeletePlayer(IDTeam : int, IDPlayer : int) - удаление игрока у команды.
-* +GetPlayers(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Player](https://github.com/Tyukhaev/BTP/blob/master/docs/Player.md "объект класса Player")> - функция, возвращающая список игроков команды, удовлетворяющих заданным параметрам.
-* +GetTeams(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Team](https://github.com/Tyukhaev/BTP/blob/master/docs/Team.md "объект класса Team")> - функция, возвращающая общее количество команд,удовлетворяющих заданным параметрам.
+* +GetPlayers(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Player](https://github.com/Tyukhaev/BTP/blob/master/docs/Player.md "объект класса Player")> - функция, возвращающает список игроков команды, удовлетворяющих заданным параметрам.
+* +GetTeams(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Team](https://github.com/Tyukhaev/BTP/blob/master/docs/Team.md "объект класса Team")> - функция, возвращающет общее количество команд,удовлетворяющих заданным параметрам.
 Параметры:
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   
@@ -27,5 +27,5 @@
   
 	* page: int — отвечает, с какой страницы начинать поиск элементов.
 	
-* +GetSponsors(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Sponsor](https://github.com/Tyukhaev/BTP/blob/master/docs/Sponsor.md "объект класса Sponsor")> - функция, возвращающая список спонсоров игр с заданными параметрами.
-* +GetGames(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Game](https://github.com/Tyukhaev/BTP/blob/master/docs/Game.md "объект класса Game")> - функция,возвращающая список игр команд с заданным параметрам.
+* +GetSponsors(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Sponsor](https://github.com/Tyukhaev/BTP/blob/master/docs/Sponsor.md "объект класса Sponsor")> - функция, возвращающает список спонсоров игр с заданными параметрами.
+* +GetGames(IDTeam : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Game](https://github.com/Tyukhaev/BTP/blob/master/docs/Game.md "объект класса Game")> - функция,возвращающает список игр команд с заданным параметрам.

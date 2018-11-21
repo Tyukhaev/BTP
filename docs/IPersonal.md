@@ -8,7 +8,7 @@
 работник, которую необходимо редактировать в БД;
 * +FindByID(ID: Int): [Personal](https://github.com/Tyukhaev/BTP/blob/master/docs/Personal.md "объект класса Personal")  — функция, осуществляющая поиск работников в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID:int): Bool – функция удаляет работника.
-* +GetPersonals(IDPersonal : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Personal](https://github.com/Tyukhaev/BTP/blob/master/docs/Personal.md "объект класса Personal")> - функция, возвращающая общее количество работников,удовлетворяющих заданным параметрам.
+* +GetPersonals(IDPersonal : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Personal](https://github.com/Tyukhaev/BTP/blob/master/docs/Personal.md "объект класса Personal")> - функция, возвращающает общее количество работников,удовлетворяющих заданным параметрам.
 Параметры:
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   

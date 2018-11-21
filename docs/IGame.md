@@ -8,7 +8,7 @@
 игра, которую необходимо редактировать в БД;
 * +FindByID(ID: Int): [Game](https://github.com/Tyukhaev/BTP/blob/master/docs/Game.md "объект класса Game")  — функция, осуществляющая поиск игр в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID:int): Bool – функция удаляет игру.
-* +GetGames(IDGame : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Game](https://github.com/Tyukhaev/BTP/blob/master/docs/Game.md "объект класса Game")> - функция, возвращающая общее количество игр,удовлетворяющих заданным параметрам.
+* +GetGames(IDGame : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Game](https://github.com/Tyukhaev/BTP/blob/master/docs/Game.md "объект класса Game")> - функция, возвращающает общее количество игр,удовлетворяющих заданным параметрам.
 Параметры:
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   

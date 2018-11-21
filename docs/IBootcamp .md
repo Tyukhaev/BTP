@@ -14,8 +14,8 @@
 * +DeletePersonal(IDBootcamp : int, IDPersonal : int) - удаление работника из буткемпа.
 * +DeleteSponsor(IDBootcamp : int, IDSponsor : int) - удаление спонсора из буткемпа.
 * +DeleteTeam(IDBootcamp : int, IDTeam : int) - удаление команды из буткемпа.
-* +GetPersonals(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Personal](https://github.com/Tyukhaev/BTP/blob/master/docs/Personal.md "объект класса Personal")> - функция, возвращающая список работников буткемпов, удовлетворяющих заданным параметрам.
-* +GetBootcamps(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Bootcamp](https://github.com/Tyukhaev/BTP/blob/master/docs/Bootcamp.md "объект класса Bootcamp")> - функция, возвращающая общее количество буткемпов,удовлетворяющих заданным параметрам.
+* +GetPersonals(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Personal](https://github.com/Tyukhaev/BTP/blob/master/docs/Personal.md "объект класса Personal")> - функция, возращает список работников буткемпов, удовлетворяющих заданным параметрам.
+* +GetBootcamps(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Bootcamp](https://github.com/Tyukhaev/BTP/blob/master/docs/Bootcamp.md "объект класса Bootcamp")> - функция, возращает общее количество буткемпов,удовлетворяющих заданным параметрам.
 Параметры:
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   
@@ -27,5 +27,5 @@
   
 	* page: int — отвечает, с какой страницы начинать поиск элементов.
 	
-* +GetSponsors(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Sponsor](https://github.com/Tyukhaev/BTP/blob/master/docs/Sponsor.md "объект класса Sponsor")> - функция, возвращающая список спонсоров буткемпов с заданными параметрами.
-* +GetTeams(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Team](https://github.com/gogganesko/Orho/blob/master/docs/Team.md "объект класса Team")> - функция,возвращающая список команд буткемпов с заданным параметрам.
+* +GetSponsors(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Sponsor](https://github.com/Tyukhaev/BTP/blob/master/docs/Sponsor.md "объект класса Sponsor")> - функция, возращает список спонсоров буткемпов с заданными параметрами.
+* +GetTeams(IDBootcamp : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Team](https://github.com/gogganesko/Orho/blob/master/docs/Team.md "объект класса Team")> - функция,возращает список команд буткемпов с заданным параметрам.

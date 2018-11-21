@@ -13,7 +13,7 @@
 * +DeleteGame(IDTournament : int, IDGame : int) - удаление игры у турнира.
 * +DeleteTeam(IDTournament : int, IDTeam : int) - удаление команды на турнире.
 * +GetTeam(IDTournament : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Team](https://github.com/gogganesko/Orho/blob/master/docs/Team.md "объект класса Team")> - функция, возвращающая список команд турнира, удовлетворяющих заданным параметрам.
-* +GetTournaments(IDTournament : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Tournament](https://github.com/Tyukhaev/BTP/blob/master/docs/Tournament.md "объект класса Tournament")> - функция, возвращающая общее количество турниров,удовлетворяющих заданным параметрам.
+* +GetTournaments(IDTournament : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Tournament](https://github.com/Tyukhaev/BTP/blob/master/docs/Tournament.md "объект класса Tournament")> - функция, возвращающает общее количество турниров,удовлетворяющих заданным параметрам.
 Параметры:
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   

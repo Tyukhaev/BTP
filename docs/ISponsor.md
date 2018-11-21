@@ -8,7 +8,7 @@
 спонсор, которую необходимо редактировать в БД;
 * +FindByID(ID: Int): [Sponsor](https://github.com/Tyukhaev/BTP/blob/master/docs/Sponsor.md "объект класса Sponsor")  — функция, осуществляющая поиск спонсоров в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID:int): Bool – функция удаляет спонсора.
-* +GetSponsors(IDSponsor : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Sponsor](https://github.com/Tyukhaev/BTP/blob/master/docs/Sponsor.md "объект класса Sponsor")> - функция, возвращающая общее количество спонсоров,удовлетворяющих заданным параметрам.
+* +GetSponsors(IDSponsor : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Sponsor](https://github.com/Tyukhaev/BTP/blob/master/docs/Sponsor.md "объект класса Sponsor")> - функция, возвращающает общее количество спонсоров,удовлетворяющих заданным параметрам.
 Параметры:
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   

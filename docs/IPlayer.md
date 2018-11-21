@@ -8,7 +8,7 @@
 игрок, которую необходимо редактировать в БД;
 * +FindByID(ID: Int): [Player](https://github.com/Tyukhaev/BTP/blob/master/docs/Player.md "объект класса Player")  — функция, осуществляющая поиск игроков в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID:int): Bool – функция удаляет игрока.
-* +GetPlayers(IDPlayer : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Player](https://github.com/Tyukhaev/BTP/blob/master/docs/Player.md "объект класса Player")> - функция, возвращающая общее количество игроков,удовлетворяющих заданным параметрам.
+* +GetPlayers(IDPlayer : int, sorting : String, filtering : String, sortingA : boolean, count : int, page : int) : List<[Player](https://github.com/Tyukhaev/BTP/blob/master/docs/Player.md "объект класса Player")> - функция, возвращающет общее количество игроков,удовлетворяющих заданным параметрам.
 Параметры:
 	* sortintg: string — отвечает, по какому полю будет сортироваться список;
   
